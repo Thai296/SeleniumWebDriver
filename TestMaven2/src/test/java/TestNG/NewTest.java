@@ -125,7 +125,7 @@ public class NewTest {
 	public void BeforeSuite() throws InterruptedException {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\TraOLong\\eclipse-workspace\\TestMaven2\\driver\\chromedriver.exe");
+				"C:\\Users\\TraOLong\\git\\course-selenium-webdriver-api\\TestMaven2\\driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
