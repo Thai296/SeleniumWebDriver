@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.Topic_01_Check_Environment">
+      <class name="com.wordpress.TestcasesLoginPage.VerifyWordpressLogin">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="TC_03_LoginFormDisplayed"/>
+          <include name="verifyValidLogin"/>
         </methods>
-      </class> <!-- selenium.Topic_01_Check_Environment -->
+      </class> <!-- com.wordpress.TestcasesLoginPage.VerifyWordpressLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
