@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-14T04:38:29Z" name="Default suite" finished-at="2021-05-14T04:38:39Z" duration-ms="10415">
+  <suite started-at="2021-05-14T09:07:32Z" name="Default suite" finished-at="2021-05-14T09:07:38Z" duration-ms="6030">
     <groups>
     </groups>
-    <test started-at="2021-05-14T04:38:29Z" name="Default test" finished-at="2021-05-14T04:38:39Z" duration-ms="10415">
-      <class name="com.wordpress.TestcasesLoginPage.VerifyWordpressLogin">
-        <test-method signature="verifyValidLogin()[pri:0, instance:com.wordpress.TestcasesLoginPage.VerifyWordpressLogin@7eac9008]" started-at="2021-05-14T04:38:29Z" name="verifyValidLogin" finished-at="2021-05-14T04:38:39Z" duration-ms="10397" status="PASS">
+    <test started-at="2021-05-14T09:07:32Z" name="Default test" finished-at="2021-05-14T09:07:38Z" duration-ms="6030">
+      <class name="com.wordpress.TestcasesLoginPage.VerifyWordpressLoginPagenew">
+        <test-method signature="checkValidUser()[pri:0, instance:com.wordpress.TestcasesLoginPage.VerifyWordpressLoginPagenew@185a6e9]" started-at="2021-05-14T09:07:32Z" name="checkValidUser" finished-at="2021-05-14T09:07:38Z" duration-ms="6015" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyValidLogin -->
-      </class> <!-- com.wordpress.TestcasesLoginPage.VerifyWordpressLogin -->
+        </test-method> <!-- checkValidUser -->
+      </class> <!-- com.wordpress.TestcasesLoginPage.VerifyWordpressLoginPagenew -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
