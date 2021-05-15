@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-14T01:33:04Z" name="Default suite" finished-at="2021-05-14T01:33:22Z" duration-ms="18027">
+  <suite started-at="2021-05-15T03:04:51Z" name="Default suite" finished-at="2021-05-15T03:05:10Z" duration-ms="18333">
     <groups>
     </groups>
-    <test started-at="2021-05-14T01:33:04Z" name="Default test" finished-at="2021-05-14T01:33:22Z" duration-ms="18027">
-      <class name="TestNG.TestUploadFile">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.TestUploadFile@77f1baf5]" started-at="2021-05-14T01:33:04Z" name="beforeClass" finished-at="2021-05-14T01:33:09Z" duration-ms="4700" status="PASS">
+    <test started-at="2021-05-15T03:04:51Z" name="Default test" finished-at="2021-05-15T03:05:10Z" duration-ms="18333">
+      <class name="TestPage.LoginPagewithPageFactory">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestPage.LoginPagewithPageFactory@77f1baf5]" started-at="2021-05-15T03:04:51Z" name="beforeTest" finished-at="2021-05-15T03:04:59Z" duration-ms="7379" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:TestNG.TestUploadFile@77f1baf5]" started-at="2021-05-14T01:33:09Z" name="f" finished-at="2021-05-14T01:33:16Z" duration-ms="7679" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testCreateAccount()[pri:0, instance:TestPage.LoginPagewithPageFactory@77f1baf5]" started-at="2021-05-15T03:04:59Z" name="testCreateAccount" finished-at="2021-05-15T03:05:06Z" duration-ms="7326" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.TestUploadFile@77f1baf5]" started-at="2021-05-14T01:33:16Z" name="afterClass" finished-at="2021-05-14T01:33:22Z" duration-ms="5631" status="PASS">
+        </test-method> <!-- testCreateAccount -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestPage.LoginPagewithPageFactory@77f1baf5]" started-at="2021-05-15T03:05:06Z" name="afterTest" finished-at="2021-05-15T03:05:10Z" duration-ms="3613" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestNG.TestUploadFile -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPage.LoginPagewithPageFactory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

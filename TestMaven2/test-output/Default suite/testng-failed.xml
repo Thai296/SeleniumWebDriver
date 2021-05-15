@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.TestUploadFile">
+      <class name="TestPage.LoginPagewithPageFactory">
         <methods>
-          <include name="f"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
+          <include name="testCreateAccount"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- TestNG.TestUploadFile -->
+      </class> <!-- TestPage.LoginPagewithPageFactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
